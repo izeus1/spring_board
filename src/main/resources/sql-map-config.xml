@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- Alias 설정 -->
+	<typeAliases>
+		<typeAlias alias="users" type="com.javalec.mysite.vo.UsersVO" />
+	</typeAliases>
+	<!-- Sql Mapper 설정 -->
+	<mappers>
+		<mapper resource="mappings/board_mapping.xml" />
+		<mapper resource="mappings/users_mapping.xml" />
+	</mappers>
+</configuration>
